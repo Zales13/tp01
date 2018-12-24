@@ -1,8 +1,3 @@
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -10,7 +5,7 @@
 		$body = $('body'),
 		settings = {
 
-			// Parallax background effect?
+			
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
@@ -26,7 +21,7 @@
 			mobile:  [ null,      '736px'  ]
 		});
 
-	// Mobile?
+	
 		if (browser.mobile)
 			$body.addClass('is-scroll');
 
@@ -50,7 +45,7 @@
 
 	// Parallax background.
 
-		// Disable parallax on IE/Edge (smooth scrolling is jerky), and on mobile platforms (= better performance).
+		
 			if (browser.name == 'ie'
 			||	browser.name == 'edge'
 			||	browser.mobile)
@@ -69,7 +64,7 @@
 				})
 				.on('resize.overflow_parallax', function() {
 
-					// If we're in a situation where we need to temporarily disable parallax, do so.
+					
 						if (breakpoints.active('<=narrow')) {
 
 							$body.css('background-position', '');
@@ -77,7 +72,7 @@
 
 						}
 
-					// Otherwise, continue as normal.
+					
 						else
 							$bg = $body;
 

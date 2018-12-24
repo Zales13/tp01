@@ -7,12 +7,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600');
 @import url('font-awesome.min.css');
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 // Breakpoints.
 
 	@include breakpoints((
@@ -93,10 +87,7 @@
 		appearance: none;
 	}
 
-/* Basic */
 
-	// Set box model to border-box.
-	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 		html {
 			box-sizing: border-box;
 		}
@@ -272,7 +263,6 @@
 		}
 	}
 
-/* Sections/Article */
 
 	section, article {
 		margin-bottom: 3em;
